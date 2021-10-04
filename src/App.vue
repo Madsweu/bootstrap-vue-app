@@ -8,6 +8,8 @@
   </div>
 </template>
 
+
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -27,6 +29,32 @@
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #009DFF;
 }
+
+.card {
+    margin: .70rem .5rem 1rem 3.5rem; /* Added */
+    float: left; /* Added */
+    margin-bottom: 10px; /* Added */
+    border-color: #009DFF;
+
+}
+
+strong{
+  color: #009DFF;
+}
+
+p{
+  opacity: 80%;
+}
+
+.card-title{
+  opacity: 60%;
+}
+
+.btn-primary{
+  background-color: #009DFF;
+  border-color: white;
+}
+
 </style>
